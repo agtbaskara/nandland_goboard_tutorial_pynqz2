@@ -14,6 +14,12 @@ Code is implemented using Vivado 2024.2.2
 
 ![FPGA Board](docs/fpga_board.jpg)
 
+### Notes:
+
+**The PYNQ-Z2 LAN cable must be connected for proper functionality due to clock source limitations.**
+
+**In these design, we used Raspberry Pi Header for UART. Use a USB UART adapter and connect: GND to Pin 39 (G), RX to Pin 37 (W9), and TX to Pin 35 (Y8).**
+
 ## Contents
 
 ### Project 7: UART Part 1 - Receive Data from Computer
